@@ -1,0 +1,105 @@
+http://10.5.200.248:30938/cms/getallcircles
+POST method
+Response:
+{
+    "status": {
+        "code": 200,
+        "message": "Success"
+    },
+    "result": {
+        "circles": [
+            {
+                "code": "102",
+                "name": "DEL"
+            },
+            {
+                "code": "115",
+                "name": "KOL"
+            },
+            {
+                "code": "101",
+                "name": "HP"
+            },
+            {
+                "code": "103",
+                "name": "CHN"
+            },
+            {
+                "code": "104",
+                "name": "AP"
+            },
+            {
+                "code": "105",
+                "name": "KK"
+            },
+            {
+                "code": "106",
+                "name": "MPCG"
+            },
+            {
+                "code": "107",
+                "name": "PB"
+            },
+            {
+                "code": "108",
+                "name": "HAR"
+            },
+            {
+                "code": "109",
+                "name": "MUM"
+            },
+            {
+                "code": "110",
+                "name": "UPW"
+            },
+            {
+                "code": "111",
+                "name": "GUJ"
+            },
+            {
+                "code": "112",
+                "name": "MAH"
+            },
+            {
+                "code": "113",
+                "name": "KER"
+            },
+            {
+                "code": "114",
+                "name": "TN"
+            },
+            {
+                "code": "116",
+                "name": "UPE"
+            },
+            {
+                "code": "117",
+                "name": "JK"
+            },
+            {
+                "code": "118",
+                "name": "WB"
+            },
+            {
+                "code": "119",
+                "name": "BH"
+            },
+            {
+                "code": "120",
+                "name": "OR"
+            },
+            {
+                "code": "121",
+                "name": "RAJ"
+            },
+            {
+                "code": "122",
+                "name": "AS"
+            },
+            {
+                "code": "123",
+                "name": "NE"
+            }
+        ]
+    }
+}

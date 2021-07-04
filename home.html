@@ -1,0 +1,131 @@
+
+<link href="css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="javascript/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link rel="stylesheet" href="css/airtel-create.css">
+<script src="javascript/airtel-create.js"></script>
+
+<script src="javascript/bootstrap.min.js"></script>
+
+
+
+<div id="wrapper" class="animate">
+    <nav class="navbar header-top fixed-top navbar-expand-lg  navbar-dark bg-dark">
+        <span class="navbar-toggler-icon leftmenutrigger"></span>
+        <a class="navbar-brand" href="#">Create Plan Management Portal</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav animate side-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> Plan Management
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABC1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABC2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Logout</a>
+                </li>
+            </ul>
+
+
+            <ul class="navbar-nav ml-md-auto d-md-flex">
+                <li class="nav-item">
+                    <a class="nav-link">Vijay Kumar
+                        <span class="sr-only">(current)</span>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">|</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Logout</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+
+
+        <div class="row">
+            <div class="col">
+                    <div class="row">
+                            <div class="col">
+                                <span class="card-title" style="font-size: 20px;">Plan Details for <span style="font-weight:bold" id="selected_cirtel_name"> </span> Circle</span>
+                            </div>
+                            <div class="col"></div>
+                            <div class="col"></div>
+                            <div style="margin-top: 3px;font-size: 20px;">
+                                Select Circle
+                            </div>
+                            <div class="col">
+                                <select class="form-control" id="select_circle">
+                                    <option value=""> Select Circle</option>
+                                </select>
+                            </div>
+                        </div>
+
+                <div class="card" style="overflow: scroll !important;">
+                    <div class="card-body">
+                        <input type="hidden" id="total_rows"> 
+                        <table class="table-striped">
+                            <thead>
+                                <tr>
+                                    <!-- <th scope="col">#</th> -->
+                                    <th scope="col">amazonPrime</th>
+                                    <th scope="col">bplCode</th>
+                                    <th scope="col">dataRollover</th>
+                                    <th scope="col">freeChild</th>
+                                    <th scope="col">freeGBPerChild</th>
+                                    <th scope="col">freeSms</th>
+                                    <th scope="col">incomingRoaming</th>
+                                    <th scope="col">individualLadder</th>
+                                    <th scope="col">isFamily</th>
+                                    <th scope="col">movies</th>
+                                    <th scope="col">outgoingRoaming</th>
+                                    <th scope="col">packs</th>
+                                    <th scope="col" >planName</th>
+                                    <th scope="col">rental</th>
+                                    <th scope="col">secure</th>
+                                    <th scope="col">sideOffer1</th>
+                                    <th scope="col">sideOffer2</th>
+                                    <th scope="col">sideOffer3</th>
+                                    <th scope="col">sideOffer4</th>
+                                    <th scope="col">type</th>
+                                    <th scope="col">validity</th>
+                                    <th scope="col">value3g</th>
+                                    <th scope="col">value4g</th>
+                                    <th scope="col">wynk</th>
+
+                                    
+                                </tr>
+                            </thead>
+                            <tbody id="table_value">
+                               
+                            </tbody>
+                        </table>
+
+
+      
+                    </div>
+                                
+                </div>
+                <div class="form-group text-right">
+                        <button type="button" id="circle_update" class="btn btn-success"> Update to Selected Circle
+                        </button>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</div>

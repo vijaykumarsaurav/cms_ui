@@ -1,0 +1,29 @@
+http://10.5.200.248:30938/cms/loginuser
+POST
+Request:
+{
+  "username":"admin",
+  "password":"j"
+}
+Response:
+{
+    "status": {
+        "code": 500,
+        "message": "Login failed"
+    },
+    "result": null
+}
+
+Request:
+{
+  "username":"admin",
+  "password":"admin"
+}
+Response:
+{
+    "status": {
+        "code": 200,
+        "message": "Success"
+    },
+    "result": "Logged in successfully."
+}
